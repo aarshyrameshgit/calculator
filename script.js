@@ -12,3 +12,8 @@ function evaluateExpression(){
     // result.value=res
     result.value=eval(result.value)
 }
+
+function backSpace(){
+    let curValue=result.value
+    result.value=curValue.slice(0.-1)
+}
